@@ -1,0 +1,27 @@
+{
+  "name": "402mob-cli",
+  "version": "0.1.0",
+  "description": "Agent-oriented command-line client for 402Mob enrollment, discovery, and Work Tickets.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gggggggg424242/402mob-cli.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin/402mob.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "bin": "./bin/402mob.js",
+  "scripts": {
+    "start": "node ./bin/402mob.js",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "402mob-merchant-sdk": "0.3.0"
+  }
+}
